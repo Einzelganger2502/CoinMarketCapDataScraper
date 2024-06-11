@@ -33,3 +33,19 @@ The Crypto Scraper API is designed to provide up-to-date cryptocurrency data by 
    ```sh
    git clone https://github.com/Einzelganger2502/CoinMarketCapDataScraper.git
    cd CoinMarketCapDataScraper
+
+2. **Create a Virtual Environment**
+   ```sh
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. **Install the dependencies**
+   ```sh
+   pip install -r requirements.txt
+
+4. **Set up Redis**
+   Ensure that you have Redis installed and running. You can follow instructions from the [ Redis documentation](https://redis.io/docs/latest/) to install it.
+   
+5. **Run Migrations**
+   ```sh
+   python3 manage.py migrate
