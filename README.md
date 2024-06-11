@@ -28,8 +28,7 @@ The Crypto Scraper API is designed to provide up-to-date cryptocurrency data by 
 
 ## Installation
 
-1. **Clone the repository**:
-
+1. **Clone the repository**
    ```sh
    git clone https://github.com/Einzelganger2502/CoinMarketCapDataScraper.git
    cd CoinMarketCapDataScraper
@@ -44,7 +43,7 @@ The Crypto Scraper API is designed to provide up-to-date cryptocurrency data by 
    pip install -r requirements.txt
 
 4. **Set up Redis**
-   Ensure that you have Redis installed and running. You can follow instructions from the [ Redis documentation](https://redis.io/docs/latest/) to install it.
+Ensure that you have Redis installed and running. You can follow instructions from the [ Redis documentation](https://redis.io/docs/latest/) to install it.
    
 5. **Run Migrations**
    ```sh
