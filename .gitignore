@@ -1,0 +1,21 @@
+# Ignore the SQLite database file
+db.sqlite3
+
+# Ignore other files and directories
+__pycache__/
+*.py[cod]
+.DS_Store
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
