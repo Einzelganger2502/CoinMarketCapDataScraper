@@ -8,8 +8,7 @@ def scrape_coin_data(job_id, coin):
     task = Task.objects.create(job=job, coin=coin)
     
     scraper = CoinMarketCap()
-    try:
-        
+    try:        
         data = scraper.get_coin_data(coin)
         task.output = data
         task.status = 'COMPLETED'

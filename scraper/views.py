@@ -38,7 +38,7 @@ class ScrapingStatusView(APIView):
             "job_id": job.job_id,
             "tasks": [
                 {
-                    "coin": task.coin,
+                    "coin": task.coin.upper(),
                     "output": task.output,
                     "status": task.status,
                 }
