@@ -48,3 +48,12 @@ Ensure that you have Redis installed and running. You can follow instructions fr
 5. **Run Migrations**
    ```sh
    python3 manage.py migrate
+
+## Running Instructions
+1. **Start the Django Development Server**
+   ```sh
+   python3 manage.py runserver
+2. **Start the Celery Worker**
+  ```sh
+   celery -A crypto_scraper worker --loglevel=info 
+
