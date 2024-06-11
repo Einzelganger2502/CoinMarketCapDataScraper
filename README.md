@@ -197,6 +197,6 @@ Ensure that you have Redis installed and running. You can follow instructions fr
             },
             "status": "COMPLETED"
         }
-    ]
-}
+      ]
+    }
 
