@@ -59,10 +59,10 @@ Ensure that you have Redis installed and running. You can follow instructions fr
    celery -A crypto_scraper worker --loglevel=info
 
 ## API Endpoints
-1. **/api/taskmanager/start_scraping [POST]**
+1. **/api/taskmanager/start_scraping [POST]**<br>
    This will take in a list payload [“duko”, “notcoin”, “gorilla-token”] which are names of the crypto coins and submit a scraping job(celery will be used) to be run for     
    these coins parallely and return back a job id. Following image depicts the same.
    
-2. **/api/taskmanager/scraping_status/<job_id> [GET]**
+2. **/api/taskmanager/scraping_status/<job_id> [GET]**<br>
    From the job_id received in the previous API, we can query this API and it will return the currently scraped data for that job. Following image depicts the JSON repsonse     we get for the above JOB_ID
 
