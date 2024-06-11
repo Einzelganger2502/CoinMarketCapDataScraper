@@ -25,6 +25,7 @@ The Crypto Scraper API is designed to provide up-to-date cryptocurrency data by 
 - WebDriver Manager
 - Requests
 - BeautifulSoup4
+- Postman App (if you want to locally test the APIs)
 
 ## Installation
 
