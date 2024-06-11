@@ -9,8 +9,7 @@ This project is a Django REST Framework API that scrapes cryptocurrency data fro
 - [Installation](#installation)
 - [Running the Project](#running-the-project)
 - [API Endpoints](#api-endpoints)
-- [License](#license)
-
+  
 ## Introduction
 
 The Crypto Scraper API is designed to provide up-to-date cryptocurrency data by scraping CoinMarketCap. It includes features like scheduled tasks to update data periodically using Celery.
@@ -57,5 +56,9 @@ Ensure that you have Redis installed and running. You can follow instructions fr
    
 2. **Start the Celery Worker**
    ```sh
-   celery -A crypto_scraper worker --loglevel=info 
+   celery -A crypto_scraper worker --loglevel=info
+
+## API Endpoints
+1. **/api/taskmanager/start_scraping [POST]**
+2. **/api/taskmanager/scraping_status/<job_id> [GET]**
 
