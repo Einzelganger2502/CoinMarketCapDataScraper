@@ -31,5 +31,5 @@ The Crypto Scraper API is designed to provide up-to-date cryptocurrency data by 
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/yourusername/crypto-scraper-api.git
-   cd crypto-scraper-api
+   git clone https://github.com/Einzelganger2502/CoinMarketCapDataScraper.git
+   cd CoinMarketCapDataScraper
